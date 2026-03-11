@@ -1,11 +1,7 @@
-fastapi
-uvicorn[standard]
-websockets
-python-multipart
-aiofiles
-pydantic
+Flask
+Flask-SocketIO
+python-socketio
 requests
-tls-client
-pytz
 urllib3
-jinja2
+pytz
+tls_client
