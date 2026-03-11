@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+websockets
+python-multipart
+aiofiles
+pydantic
+requests
+tls-client
+pytz
+urllib3
+jinja2
