@@ -979,4 +979,5 @@ if __name__ == '__main__':
     print("  • Download results as text files")
     print("=" * 60)
     
-    socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+    # Fix: Add allow_unsafe_werkzeug=True to run in production
+    socketio.run(app, debug=True, host='0.0.0.0', port=5000, allow_unsafe_werkzeug=True)
